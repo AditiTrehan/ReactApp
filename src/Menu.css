@@ -1,0 +1,36 @@
+.row {
+        width: 100%;
+        min-height: 50px;
+        background: #a00;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    .logo-container {
+        width: 300px;
+        min-height: 50px;
+        background: #f50;
+    }
+    
+    .menu-container {
+        width: 1000px;
+        min-height: 50px;
+        background: #f50;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .menu {
+        flex-basis: 25%;
+        margin: 5px;
+        color: #444;
+        background: #e5e5e5;
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+    
+    .menu div {
+        flex: 1;
+    } 

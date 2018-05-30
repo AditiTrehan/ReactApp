@@ -1,0 +1,11 @@
+.gallery-container{
+    width:800px;
+    height:300px;
+    display:flex;
+    justify-content:space-between;
+}
+.box{
+    width:150px;
+    background:#a50;
+    margin:10px;
+}
